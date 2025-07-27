@@ -16,3 +16,48 @@
     font-display: swap;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: "playfair", serif;
+    font-weight: 500;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: rgb(61, 179, 218);
+}
+
+footer {
+    background-color: rgb(61, 179, 218);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project1, .project2, .project3, .project4, .project5, .project6 {
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid blue;
+}

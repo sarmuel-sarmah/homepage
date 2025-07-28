@@ -32,6 +32,11 @@ h1, h2, h3 {
     font-weight: 500;
 }
 
+p  {
+    font-family: "Roboto", serif;
+}
+
+
 .page {
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +67,7 @@ h1, h2, h3 {
 .header-about {
     background-color: white;
     text-align: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .about-description {

@@ -32,8 +32,36 @@ h1, h2, h3 {
     flex-wrap: wrap;
 }
 
-header {
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-and-pic {
     background-color: rgb(61, 179, 218);
+    position: relative;
+}
+
+.image-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.header-about {
+    background-color: white;
+    text-align: center;
+    gap: 20px;
+}
+
+.about-description {
+    text-align: center;
 }
 
 footer {
@@ -41,6 +69,7 @@ footer {
 }
 
 .section {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +86,8 @@ footer {
 }
 
 .project1, .project2, .project3, .project4, .project5, .project6 {
-    margin: 10px;
-    padding: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
     border: 2px solid blue;
 }

@@ -22,6 +22,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
 h1, h2, h3 {
     font-family: "playfair", serif;
     font-weight: 500;
@@ -64,10 +69,6 @@ h1, h2, h3 {
     text-align: center;
 }
 
-footer {
-    background-color: rgb(61, 179, 218);
-}
-
 .section {
     width: 100%;
     display: flex;
@@ -90,4 +91,26 @@ footer {
     padding: 10px;
     padding-bottom: 40px;
     border: 2px solid blue;
+}
+
+footer {
+    background-color: rgb(61, 179, 218);
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.address1, .address2 {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
 }

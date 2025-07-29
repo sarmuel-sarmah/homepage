@@ -52,6 +52,7 @@ p  {
 .name-and-pic {
     background-color: rgb(61, 179, 218);
     position: relative;
+    box-shadow: 10px 10px 5px rgb(174, 173, 173);
 }
 
 .image-name {
@@ -95,7 +96,8 @@ p  {
     margin-bottom: 20px;
     padding: 10px;
     padding-bottom: 40px;
-    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(174, 173, 173);
 }
 
 footer {

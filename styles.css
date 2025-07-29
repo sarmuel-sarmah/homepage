@@ -40,6 +40,7 @@ p  {
 .page {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .header {
@@ -47,6 +48,7 @@ p  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .name-and-pic {
@@ -71,9 +73,7 @@ p  {
     gap: 30px;
 }
 
-.about-description {
-    text-align: center;
-}
+
 
 .section {
     width: 100%;
@@ -120,4 +120,12 @@ footer {
 .social-icons {
     display: flex;
     gap: 30px;
+}
+
+/* Tablet styling */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+@media only screen and (min-width: 961px) {
+
 }

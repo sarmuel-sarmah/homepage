@@ -71,7 +71,7 @@ p  {
 .header > * {
     position: relative;
     z-index: 1;
-    padding: 30px 0; /* adjust as needed */
+    padding: 30px 0; 
 }
 
 .name-and-pic {
@@ -177,6 +177,11 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, ifr);
         gap: 10px;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 

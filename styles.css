@@ -49,15 +49,35 @@ p  {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 0;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background: linear-gradient(270deg, rgb(61, 179, 218) 80% white 50%);
+    box-shadow: 10px 10px 5px rgb(174, 173, 173);
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgb(61, 179, 218);
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 90%);
+    z-index: 0;
+}
+
+.header > * {
+    position: relative;
+    z-index: 1;
+    padding: 30px 0; /* adjust as needed */
 }
 
 .name-and-pic {
-    background-color: rgb(61, 179, 218);
     position: relative;
     width: 100%;
     height: 300px;
-    box-shadow: 10px 10px 5px rgb(174, 173, 173);
 }
 
 .name-and-pic img {
@@ -67,7 +87,7 @@ p  {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.1;
+    opacity: 0.7;
     z-index: 1;
 }
 

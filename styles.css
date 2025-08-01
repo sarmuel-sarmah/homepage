@@ -155,7 +155,7 @@ footer {
     .projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 600px);
+        grid-template-rows: repeat(3, ifr);
         gap: 10px;
     }
 }

@@ -164,6 +164,15 @@ footer {
     padding: 10px;
 }
 
+.addressable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
 .address {
     display: flex;
     align-items: center;

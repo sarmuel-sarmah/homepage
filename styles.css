@@ -145,7 +145,6 @@ p  {
 .project-details {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
@@ -169,6 +168,7 @@ footer {
     text-align: center;
     gap: 20px;
     padding: 10px;
+    font-size: 20px;
 }
 
 .addressable {
@@ -186,17 +186,13 @@ footer {
     gap: 20px;
 }
 
-.address > img {
-    display: none;
-    padding: 10px;
-}
-
 .social-icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
 }
+
 
 /* Tablet styling */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
@@ -209,6 +205,25 @@ footer {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         width: 100%;
+    }
+
+    .project-details {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .projects img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .project-links {
+        display: flex;
+        height: 30px;
+        width: 30px;
     }
 
     .project1, .project2, .project3, .project4, .project5, .project6 {
@@ -225,6 +240,7 @@ footer {
     .social-icons > img {
         height: 40px;
         width: 40px;
+        display: block;
     }
 }
 
